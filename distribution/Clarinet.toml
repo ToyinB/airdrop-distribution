@@ -1,0 +1,11 @@
+[project]
+name = "distribution"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+analysis = ["check_checker"]
+costs_version = 2
+[contracts.airdrop]
+path = "contracts/airdrop.clar"
+depends_on = []
